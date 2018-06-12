@@ -10,7 +10,7 @@ namespace Ink.Parsed
         // - List names are dot separated: listName.itemName (or just itemName)
         public string name { 
             get {
-                return string.Join (".", path);
+                return string.Join (".", path.ToArray());
             } 
         }
         
@@ -103,7 +103,7 @@ namespace Ink.Parsed
             if (path.Count > 1) {
                 var errorMsg = "Could not find target for read count: " + parsedPath;
                 if (path.Count <= 2)
-                    errorMsg += ", or couldn't find list item with the name " + string.Join (",", path);
+                    errorMsg += ", or couldn't find list item with the name " + string.Join (",", path.ToArray());
                 Error (errorMsg);
                 return;
             }
@@ -115,7 +115,7 @@ namespace Ink.Parsed
 
         public override string ToString ()
         {
-            return string.Join(".", path);
+            return string.Join(".", path.ToArray());
         }
 
         Runtime.VariableReference _runtimeVarRef;
