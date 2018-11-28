@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InkTestBed", "InkTestBed\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inklegraph", "inklegraph\inklegraph.csproj", "{6273A3B7-2923-4B1C-B5CF-A1566386E57A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inklesplit", "inklesplit\inklesplit.csproj", "{72AB01A0-4231-469A-A4C3-C0CCD0ADDF9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,6 +102,22 @@ Global
 		{6273A3B7-2923-4B1C-B5CF-A1566386E57A}.InkTestBed|Any CPU.Build.0 = Debug|x86
 		{6273A3B7-2923-4B1C-B5CF-A1566386E57A}.InkTestBed|x86.ActiveCfg = Debug|x86
 		{6273A3B7-2923-4B1C-B5CF-A1566386E57A}.InkTestBed|x86.Build.0 = Debug|x86
+		{72AB01A0-4231-469A-A4C3-C0CCD0ADDF9F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{72AB01A0-4231-469A-A4C3-C0CCD0ADDF9F}.Debug|Any CPU.Build.0 = Debug|x86
+		{72AB01A0-4231-469A-A4C3-C0CCD0ADDF9F}.Debug|x86.ActiveCfg = Debug|x86
+		{72AB01A0-4231-469A-A4C3-C0CCD0ADDF9F}.Debug|x86.Build.0 = Debug|x86
+		{72AB01A0-4231-469A-A4C3-C0CCD0ADDF9F}.Release|Any CPU.ActiveCfg = Release|x86
+		{72AB01A0-4231-469A-A4C3-C0CCD0ADDF9F}.Release|Any CPU.Build.0 = Release|x86
+		{72AB01A0-4231-469A-A4C3-C0CCD0ADDF9F}.Release|x86.ActiveCfg = Release|x86
+		{72AB01A0-4231-469A-A4C3-C0CCD0ADDF9F}.Release|x86.Build.0 = Release|x86
+		{72AB01A0-4231-469A-A4C3-C0CCD0ADDF9F}.Test|Any CPU.ActiveCfg = Debug|x86
+		{72AB01A0-4231-469A-A4C3-C0CCD0ADDF9F}.Test|Any CPU.Build.0 = Debug|x86
+		{72AB01A0-4231-469A-A4C3-C0CCD0ADDF9F}.Test|x86.ActiveCfg = Debug|x86
+		{72AB01A0-4231-469A-A4C3-C0CCD0ADDF9F}.Test|x86.Build.0 = Debug|x86
+		{72AB01A0-4231-469A-A4C3-C0CCD0ADDF9F}.InkTestBed|Any CPU.ActiveCfg = Debug|x86
+		{72AB01A0-4231-469A-A4C3-C0CCD0ADDF9F}.InkTestBed|Any CPU.Build.0 = Debug|x86
+		{72AB01A0-4231-469A-A4C3-C0CCD0ADDF9F}.InkTestBed|x86.ActiveCfg = Debug|x86
+		{72AB01A0-4231-469A-A4C3-C0CCD0ADDF9F}.InkTestBed|x86.Build.0 = Debug|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
@@ -111,7 +129,7 @@ Global
 		$2.TabsToSpaces = False
 		$2.inheritsSet = VisualStudio
 		$2.inheritsScope = text/plain
-		StartupItem = inklecate\inklecate.csproj
+		StartupItem = inklesplit\inklesplit.csproj
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		ink-engine-runtime\ink-engine-runtime.projitems*{f68d0ee2-1831-4a06-8ffa-cbd0315efd0e}*SharedItemsImports = 4
