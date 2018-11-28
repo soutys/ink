@@ -267,6 +267,10 @@ namespace Ink.Runtime
 			}
 		}
 
+        /// <summary>
+        /// TBD
+        /// </summary>
+        /// <value>time in miliseconds</value>
 		public int totalMillisecs {
 			get {
 				return (int)_totalMillisecs;
